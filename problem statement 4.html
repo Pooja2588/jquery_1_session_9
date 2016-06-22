@@ -1,0 +1,24 @@
+<!Doctype html>
+<html>
+<head><title>jquery problem 1</title>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js">
+    </script>
+    <script type="text/javascript">
+
+    $(document).ready(function(){
+
+   $( "button" ).click(function()
+   {
+   
+   $("a").css("background","yellow");
+   $("a").html("link changed");
+   $("a").attr("href", "http://www.google.com/");
+   });
+});
+    </script>
+    </head>
+<body>
+<a href="#" >This is link</a><br><br>
+<button type="button">click me</button>
+</body>
+</html>
